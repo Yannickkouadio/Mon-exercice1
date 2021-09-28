@@ -1,0 +1,30 @@
+ul{
+    margin: 0px;
+    background-color: #859398;
+}
+ul .liens{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 35px;
+    cursor: pointer;
+    position: relative;
+}
+ul .liens::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    background-color: #243B55;
+    transition: all 0.5s;
+}
+ul .liens:hover::after{
+    width: 100%;
+}
+.liens a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

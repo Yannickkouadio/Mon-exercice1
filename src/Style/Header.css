@@ -1,0 +1,29 @@
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("../images//5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+.header div{
+    padding:60px;
+}
+.header div input{
+    width: 500px;
+    height: 25px;
+    border: 2px solid #2F80ED;
+    border-radius: 50px;
+    text-indent: 20px;
+    background: transparent;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    outline: none;
+    color: #fff;
+}
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #fff;
+}
+
